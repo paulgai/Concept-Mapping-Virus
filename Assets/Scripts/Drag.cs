@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using DG.Tweening;
 
@@ -13,10 +12,15 @@ public class Drag
       IEndDragHandler
 {
     public GameObject Image;
+
     public GameObject CorrectPanel;
+
     public bool isDragEnebled = true;
+
     private Vector3 dragOffset;
+
     private float distance = 100;
+
     private float minDistance = 0.5f;
     private Vector3 StartPos;
 
