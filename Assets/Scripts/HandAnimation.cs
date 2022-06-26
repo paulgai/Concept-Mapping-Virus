@@ -7,11 +7,11 @@ using DG.Tweening;
 public class HandAnimation : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        Tween myTween = GetComponent<RectTransform>().DOLocalMove(new Vector3(-20, -60, 0), 1.5f);
+        Tween myTween = GetComponent<RectTransform>().DOLocalMove(new Vector3(-20, -60, 0), 1.3f);
         myTween.SetEase(Ease.OutSine);
-        myTween.SetLoops(3, LoopType.Restart);
+        myTween.SetLoops(4, LoopType.Restart);
         myTween.OnComplete(Dis);
     }
 
