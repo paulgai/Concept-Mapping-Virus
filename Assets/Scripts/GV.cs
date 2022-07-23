@@ -8,10 +8,14 @@ using UnityEngine.SceneManagement;
 public class GV : MonoBehaviour
 {
     public GameObject Congrats;
-    public GameObject Proposition2;
-    public GameObject Proposition3;
+    public GameObject[] Propositions;
+    public int[] CorrectsArray;
+    public string[] Texts;
+    //public GameObject Proposition2;
+    //public GameObject Proposition3;
     public GameObject RestartBtn;
     private int correct;
+    private int currentIndex = 0;
     public int Correct
     {
         get { return correct; }
@@ -19,7 +23,26 @@ public class GV : MonoBehaviour
         {
             correct = value;
             Debug.Log("correct: " + correct);
-            if (correct == 2)
+            if (correct == CorrectsArray[currentIndex]) 
+            {
+                if (currentIndex < CorrectsArray.Length - 1)
+                {
+                    Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = Propositions[currentIndex];
+                    Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = Texts[currentIndex];
+                    currentIndex++;
+                    Congrats.SetActive(true);
+                }
+                else 
+                {
+                    Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = RestartBtn;
+                    Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = Texts[currentIndex];
+                    Congrats.transform.GetChild(0).GetComponent<Content>().RestartButton.SetActive(true);
+                    Congrats.SetActive(true);
+                }
+               
+            }
+
+            /*if (correct == 2)
             {
                 Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = Proposition2;
                 Congrats.SetActive(true);
@@ -37,7 +60,7 @@ public class GV : MonoBehaviour
                 Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = "Δες τις προτάσεις";
                 Congrats.transform.GetChild(0).GetComponent<Content>().RestartButton.SetActive(true);
                 Congrats.SetActive(true);
-            }
+            }*/
         }
     }
 

@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Pavlos Gaintatzis
-  productName: Concept-Mapping-Virus
+  productName: Concept-Mapping-Symptoms
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -273,7 +273,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f4bfc8d51b3fb55488054e62be49c3cd, type: 3}
+      m_Icon: {fileID: 2800000, guid: f8cb3ac9d3b87cb4a917fc5af11c8387, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -556,6 +556,7 @@ PlayerSettings:
   ps4videoRecordingFeaturesUsed: 0
   ps4contentSearchFeaturesUsed: 0
   ps4CompatibilityPS5: 0
+  ps4AllowPS5Detection: 0
   ps4GPU800MHz: 1
   ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
