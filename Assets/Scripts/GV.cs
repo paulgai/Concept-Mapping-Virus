@@ -7,12 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class GV : MonoBehaviour
 {
+    public enum Language { GR, EN };
+
+    public Language language;
     public GameObject Congrats;
     public GameObject[] Propositions;
     public int[] CorrectsArray;
-    public string[] Texts;
-    //public GameObject Proposition2;
-    //public GameObject Proposition3;
+    public string[] TextsGR;
+    public string[] TextsEN;
     public GameObject RestartBtn;
     private int correct;
     private int currentIndex = 0;
@@ -22,45 +24,31 @@ public class GV : MonoBehaviour
         set
         {
             correct = value;
-            Debug.Log("correct: " + correct);
+            //Debug.Log("correct: " + correct);
             if (correct == CorrectsArray[currentIndex]) 
             {
+                if (language == Language.GR)
+                {
+                    Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = TextsGR[currentIndex];
+                }
+                else if (language == Language.EN)
+                {
+                    Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = TextsEN[currentIndex];
+                }
+                
                 if (currentIndex < CorrectsArray.Length - 1)
                 {
                     Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = Propositions[currentIndex];
-                    Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = Texts[currentIndex];
-                    currentIndex++;
-                    Congrats.SetActive(true);
+                    currentIndex++; 
                 }
                 else 
                 {
                     Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = RestartBtn;
-                    Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = Texts[currentIndex];
                     Congrats.transform.GetChild(0).GetComponent<Content>().RestartButton.SetActive(true);
-                    Congrats.SetActive(true);
                 }
-               
-            }
 
-            /*if (correct == 2)
-            {
-                Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = Proposition2;
-                Congrats.SetActive(true);
-                //Proposition2.SetActive(true);
-            }
-            else if (correct == 4)
-            {
-                Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = Proposition3;
-                Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = "Συνέχισε στην τελευταία πρόταση";
                 Congrats.SetActive(true);
             }
-            else if (correct == 6)
-            {
-                Congrats.transform.GetChild(0).GetComponent<Content>().NextProposition = RestartBtn;
-                Congrats.transform.GetChild(0).GetComponent<Content>().ButtonText.GetComponent<TextMeshProUGUI>().text = "Δες τις προτάσεις";
-                Congrats.transform.GetChild(0).GetComponent<Content>().RestartButton.SetActive(true);
-                Congrats.SetActive(true);
-            }*/
         }
     }
 

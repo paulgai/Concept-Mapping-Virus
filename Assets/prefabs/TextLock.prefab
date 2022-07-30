@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8077113286041556467}
   - component: {fileID: 8077113286041556469}
+  - component: {fileID: 1345840557960725533}
   - component: {fileID: 8077113286041556466}
   m_Layer: 5
   m_Name: TextLock
@@ -46,6 +47,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8077113286041556464}
   m_CullTransparentMesh: 1
+--- !u!114 &1345840557960725533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077113286041556464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ae017dc4379434aa82635ee183a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GR: 
+  EN: 
 --- !u!114 &8077113286041556466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,8 +83,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u03C0\u03C1\u03BF\u03BA\u03B1\u03BB\u03B5\u03AF \u03BC\u03AF\u03B1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

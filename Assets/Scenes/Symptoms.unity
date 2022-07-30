@@ -270,7 +270,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03C0\u03BF\u03BD\u03BF\u03BA\u03AD\u03C6\u03B1\u03BB\u03BF\u03C2"
+      value: panel headache
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -537,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -861,17 +861,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68245870d2e8cd40974c7bbed732ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  language: 1
   Congrats: {fileID: 910475529}
   Propositions:
   - {fileID: 1875084361}
   - {fileID: 897934698}
   - {fileID: 1505415568}
   CorrectsArray: 02000000030000000400000005000000
-  Texts:
-  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03BF! "
-  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03BF! "
-  - "\u03A3\u03C5\u03BC\u03C0\u03BB\u03AE\u03C1\u03C9\u03C3\u03B5 \u03C4\u03BF \u03C4\u03B5\u03BB\u03B5\u03C5\u03C4\u03B1\u03AF\u03BF! "
-  - "\u0394\u03B9\u03AC\u03B2\u03B1\u03C3\u03B5 \u03C4\u03B1 \u03C3\u03C5\u03BC\u03C0\u03C4\u03CE\u03BC\u03B1\u03C4\u03B1"
+  TextsGR:
+  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03BF"
+  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03BF"
+  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03C4\u03B5\u03BB\u03B5\u03C5\u03C4\u03B1\u03AF\u03BF"
+  - "\u0394\u03B5\u03C2 \u03C4\u03B1 \u03C3\u03C5\u03BC\u03C0\u03C4\u03CE\u03BC\u03B1\u03C4\u03B1"
+  TextsEN:
+  - 'Continue to the next '
+  - 'Continue to the next '
+  - 'Continue to the last '
+  - See the symptoms
   RestartBtn: {fileID: 1135715290}
 --- !u!114 &449782424
 MonoBehaviour:
@@ -987,7 +993,6 @@ RectTransform:
   - {fileID: 1664625791}
   - {fileID: 1505670}
   - {fileID: 1686337151}
-  - {fileID: 655770004}
   - {fileID: 1726144812}
   - {fileID: 667851405}
   m_Father: {fileID: 910475532}
@@ -1096,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03C0\u03C5\u03C1\u03B5\u03C4\u03CC"
+      value: panel fever
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -1194,142 +1199,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
   m_PrefabInstance: {fileID: 581510475}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &655770003
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 655770004}
-  - component: {fileID: 655770006}
-  - component: {fileID: 655770005}
-  m_Layer: 5
-  m_Name: "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 "
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &655770004
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655770003}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 485988066}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: -64}
-  m_SizeDelta: {x: 519.34, y: 139.93}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &655770005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655770003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03B7\u03BD
-    \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03B7 \u03C0\u03C1\u03CC\u03C4\u03B1\u03C3\u03B7"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &655770006
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655770003}
-  m_CullTransparentMesh: 1
 --- !u!224 &660152555 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8077113286041556467, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
@@ -1646,7 +1515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1733,9 +1602,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1314784521}
     m_Modifications:
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: EN
+      value: Coronavirus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: GR
+      value: "\u039F \u03BA\u03BF\u03C1\u03BF\u03BD\u03BF\u03CA\u03CC\u03C2 \u03AD\u03C7\u03B5\u03B9"
+      objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556464, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_Name
-      value: "\u039F \u03BA\u03BF\u03C1\u03BF\u03BD\u03BF\u03CA\u03CC\u03C2"
+      value: Coronavirus
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556466, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_text
@@ -2137,7 +2014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u0392\u03AE\u03C7\u03B1\u03C2"
+      value: Image cough
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
@@ -2258,7 +2135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03C3\u03C5\u03BD\u03AC\u03C7\u03B9"
+      value: image sniffle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
@@ -2272,6 +2149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 936018162}
   - component: {fileID: 936018164}
+  - component: {fileID: 936018165}
   - component: {fileID: 936018163}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -2398,6 +2276,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936018161}
   m_CullTransparentMesh: 1
+--- !u!114 &936018165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936018161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ae017dc4379434aa82635ee183a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GR: "\u039E\u03B5\u03BA\u03AF\u03BD\u03B1 \u03B1\u03C0\u03CC \u03C4\u03B7\u03BD
+    \u03B1\u03C1\u03C7\u03AE"
+  EN: Start from the beginning
 --- !u!224 &1031980968 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
@@ -2412,7 +2305,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03C0\u03BF\u03BD\u03BF\u03BA\u03AD\u03C6\u03B1\u03BB\u03BF\u03C2"
+      value: headache
       objectReference: {fileID: 0}
     - target: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Pivot.x
@@ -2513,6 +2406,14 @@ PrefabInstance:
     - target: {fileID: 8453208536577119164, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: headache
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03C0\u03BF\u03BD\u03BF\u03BA\u03AD\u03C6\u03B1\u03BB\u03BF"
       objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
@@ -2766,7 +2667,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03C3\u03C5\u03BC\u03C0\u03C4\u03CE\u03BC\u03B1\u03C4\u03B1"
+      value: symptoms
       objectReference: {fileID: 0}
     - target: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Pivot.x
@@ -2852,6 +2753,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: symptoms
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03C3\u03C5\u03BC\u03C0\u03C4\u03CE\u03BC\u03B1\u03C4\u03B1"
+      objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: CorrectPanel
       value: 
@@ -2871,7 +2780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03A3\u03C5\u03BC\u03C0\u03C4\u03CE\u03BC\u03B1\u03C4\u03B1"
+      value: panel symptoms
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -3052,7 +2961,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03C0\u03C5\u03C1\u03B5\u03C4\u03CC"
+      value: fever
       objectReference: {fileID: 0}
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_IsActive
@@ -3158,6 +3067,14 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: fever
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03C0\u03C5\u03C1\u03B5\u03C4\u03CC"
+      objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
       value: 
@@ -3175,9 +3092,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1314784521}
     m_Modifications:
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: EN
+      value: as
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: GR
+      value: "\u03CC\u03C0\u03C9\u03C2 "
+      objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556464, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_Name
-      value: "\u03CC\u03C0\u03C9\u03C2"
+      value: as
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556466, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_text
@@ -3496,7 +3421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03C3\u03C5\u03BD\u03AC\u03C7\u03B9"
+      value: panel sniffle
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -3613,7 +3538,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03B2\u03AE\u03C7\u03B1"
+      value: cough
       objectReference: {fileID: 0}
     - target: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Pivot.x
@@ -3715,6 +3640,14 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: cough
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03B2\u03AE\u03C7\u03B1"
+      objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
       value: 
@@ -3802,6 +3735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664625791}
   - component: {fileID: 1664625793}
+  - component: {fileID: 1664625794}
   - component: {fileID: 1664625792}
   m_Layer: 5
   m_Name: Correct
@@ -3927,6 +3861,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664625790}
   m_CullTransparentMesh: 1
+--- !u!114 &1664625794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664625790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ae017dc4379434aa82635ee183a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GR: "\u03A0\u03BF\u03BB\u03CD \u03C3\u03C9\u03C3\u03C4\u03AC!"
+  EN: 'Excellent! '
 --- !u!1 &1686337150
 GameObject:
   m_ObjectHideFlags: 0
@@ -4074,7 +4022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u0392\u03AE\u03C7\u03B1\u03C2"
+      value: panel cough
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -4422,7 +4370,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03C3\u03C5\u03BD\u03AC\u03C7\u03B9"
+      value: sniffle
       objectReference: {fileID: 0}
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_IsActive
@@ -4527,6 +4475,14 @@ PrefabInstance:
     - target: {fileID: 8453208536577119164, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: sniffle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03C3\u03C5\u03BD\u03AC\u03C7\u03B9"
       objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
@@ -4655,7 +4611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03C0\u03C5\u03C1\u03B5\u03C4\u03CC"
+      value: image fever
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
@@ -4791,7 +4747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03C0\u03BF\u03BD\u03BF\u03BA\u03AD\u03C6\u03B1\u03BB\u03BF\u03C2"
+      value: image headache
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}

@@ -137,7 +137,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03BC\u03B5\u03C4\u03B1\u03B4\u03BF\u03B8\u03B5\u03AF"
+      value: transmitted
       objectReference: {fileID: 0}
     - target: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Pivot.x
@@ -227,6 +227,14 @@ PrefabInstance:
       propertyPath: m_text
       value: "\u03BC\u03B5\u03C4\u03B1\u03B4\u03BF\u03B8\u03B5\u03AF\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: transmitted
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03BC\u03B5\u03C4\u03B1\u03B4\u03BF\u03B8\u03B5\u03AF"
+      objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: CorrectPanel
       value: 
@@ -247,7 +255,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03C6\u03C4\u03AC\u03C1\u03BD\u03B9\u03C3\u03BC\u03B1"
+      value: sniffle
       objectReference: {fileID: 0}
     - target: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Pivot.x
@@ -349,6 +357,14 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: sniffle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03C6\u03C4\u03AC\u03C1\u03BD\u03B9\u03C3\u03BC\u03B1"
+      objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
       value: 
@@ -374,6 +390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93793742}
   - component: {fileID: 93793744}
+  - component: {fileID: 93793745}
   - component: {fileID: 93793743}
   m_Layer: 5
   m_Name: Correct
@@ -499,6 +516,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93793741}
   m_CullTransparentMesh: 1
+--- !u!114 &93793745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93793741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ae017dc4379434aa82635ee183a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GR: "\u03A0\u03BF\u03BB\u03CD \u03C3\u03C9\u03C3\u03C4\u03AC!"
+  EN: Excellent!
 --- !u!1001 &297374365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -516,7 +547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -638,7 +669,6 @@ RectTransform:
   - {fileID: 93793742}
   - {fileID: 452542601}
   - {fileID: 1940696036}
-  - {fileID: 1306944805}
   - {fileID: 1764937908}
   - {fileID: 297374366}
   m_Father: {fileID: 846504187}
@@ -992,7 +1022,7 @@ PrefabInstance:
     - target: {fileID: 3713829658219867297, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e7af9b483c33a544c8ab02829467f1dc, type: 3}
+      objectReference: {fileID: 21300000, guid: 4a65135a147234d4580e85c3ac810380, type: 3}
     - target: {fileID: 3713829658219867297, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -1015,7 +1045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03AC\u03B3\u03B3\u03B9\u03B3\u03BC\u03B1"
+      value: image touch
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
@@ -1230,7 +1260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03B2\u03AE\u03C7\u03B1"
+      value: image cough
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
@@ -1271,16 +1301,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a68245870d2e8cd40974c7bbed732ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  language: 0
   Congrats: {fileID: 846504182}
   Propositions:
   - {fileID: 1307463490}
   - {fileID: 1963874676}
   CorrectsArray: 020000000300000004000000
-  Texts:
-  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03BF! "
-  - "\u03A3\u03C5\u03BC\u03C0\u03BB\u03AE\u03C1\u03C9\u03C3\u03B5 \u03C4\u03BF \u03C4\u03B5\u03BB\u03B5\u03C5\u03C4\u03B1\u03AF\u03BF! "
-  - "\u0394\u03B9\u03AC\u03B2\u03B1\u03C3\u03B5 \u03C4\u03BF\u03C5\u03C2 \u03C4\u03C1\u03CC\u03C0\u03BF\u03C5\u03C2
+  TextsGR:
+  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03BF"
+  - "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03BF \u03C4\u03B5\u03BB\u03B5\u03C5\u03C4\u03B1\u03AF\u03BF"
+  - "\u0394\u03B5\u03C2 \u03C4\u03BF\u03C5\u03C2 \u03C4\u03C1\u03CC\u03C0\u03BF\u03C5\u03C2
     \u03BC\u03B5\u03C4\u03AC\u03B4\u03BF\u03C3\u03B7\u03C2"
+  TextsEN:
+  - 'Continue to the next '
+  - 'Continue to the last '
+  - See transmission methods
   RestartBtn: {fileID: 1816304734}
 --- !u!114 &740029378
 MonoBehaviour:
@@ -1315,7 +1350,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 720}
-  m_ScreenMatchMode: 2
+  m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 4
   m_FallbackScreenDPI: 135.4
@@ -1458,7 +1493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03BC\u03B5\u03C4\u03B1\u03B4\u03BF\u03B8\u03B5\u03AF"
+      value: 'Panel transmitted '
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -1928,7 +1963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3713829658219867303, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
       propertyPath: m_Name
-      value: "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03C6\u03C4\u03AC\u03C1\u03BD\u03B9\u03C3\u03BC\u03B1"
+      value: image sniffle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a61ffe49a1b311419a95171865e1523, type: 3}
@@ -2092,9 +2127,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 906712535}
     m_Modifications:
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: EN
+      value: Coronavirus can be
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: GR
+      value: "\u039F \u03BA\u03BF\u03C1\u03BF\u03BD\u03BF\u03CA\u03CC\u03C2 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF
+        \u03BD\u03B1"
+      objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556464, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_Name
-      value: "\u039F \u03BA\u03BF\u03C1\u03BF\u03BD\u03BF\u03CA\u03CC\u03C2"
+      value: Coronavirus can be
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556466, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_text
@@ -2229,7 +2273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03B2\u03AE\u03C7\u03B1"
+      value: panel cough
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -2322,142 +2366,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
   m_PrefabInstance: {fileID: 1196170151}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1306944804
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1306944805}
-  - component: {fileID: 1306944807}
-  - component: {fileID: 1306944806}
-  m_Layer: 5
-  m_Name: "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 "
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1306944805
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306944804}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 334658864}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: -64}
-  m_SizeDelta: {x: 519.34, y: 139.93}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1306944806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306944804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "\u03A3\u03C5\u03BD\u03AD\u03C7\u03B9\u03C3\u03B5 \u03C3\u03C4\u03B7\u03BD
-    \u03B5\u03C0\u03CC\u03BC\u03B5\u03BD\u03B7 \u03C0\u03C1\u03CC\u03C4\u03B1\u03C3\u03B7"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1306944807
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306944804}
-  m_CullTransparentMesh: 1
 --- !u!1 &1307463490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3116,7 +3024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9044041315737831572, guid: 311965e8285b8e140be5d5f3d371e2e3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3219,7 +3127,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03AC\u03B3\u03B3\u03B9\u03B3\u03BC\u03B1"
+      value: panel touch
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -3330,7 +3238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3602217872726842489, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Name
-      value: "\u03A0\u03AC\u03BD\u03B5\u03BB \u03C6\u03C4\u03AC\u03C1\u03BD\u03B9\u03C3\u03BC\u03B1"
+      value: panel sniffle
       objectReference: {fileID: 0}
     - target: {fileID: 5770892180795346026, guid: d68e21c9588f6ad4dbe116649a650805, type: 3}
       propertyPath: m_Pivot.x
@@ -3570,7 +3478,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03AC\u03B3\u03B3\u03B9\u03B3\u03BC\u03B1"
+      value: touch
       objectReference: {fileID: 0}
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_IsActive
@@ -3676,6 +3584,14 @@ PrefabInstance:
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: touch
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03AC\u03B3\u03B3\u03B9\u03B3\u03BC\u03B1"
+      objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
       value: 
@@ -3701,6 +3617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1917695878}
   - component: {fileID: 1917695880}
+  - component: {fileID: 1917695881}
   - component: {fileID: 1917695879}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -3827,6 +3744,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917695877}
   m_CullTransparentMesh: 1
+--- !u!114 &1917695881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917695877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ae017dc4379434aa82635ee183a007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GR: "\u039E\u03B5\u03BA\u03AF\u03BD\u03B1 \u03B1\u03C0\u03CC \u03C4\u03B7\u03BD
+    \u03B1\u03C1\u03C7\u03AE"
+  EN: Start from the beginning
 --- !u!1 &1940696035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,9 +4074,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 906712535}
     m_Modifications:
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: EN
+      value: through
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
+      propertyPath: GR
+      value: "\u03BC\u03B5"
+      objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556464, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_Name
-      value: "\u03BC\u03B5"
+      value: through
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556466, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_text
@@ -4232,11 +4172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556467, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0000038147
+      value: -3.9
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556467, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: -5.4
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556467, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4266,7 +4206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 478889753172841763, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Name
-      value: "\u03B2\u03AE\u03C7\u03B1"
+      value: cough
       objectReference: {fileID: 0}
     - target: {fileID: 3045396003157830638, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_Pivot.x
@@ -4367,6 +4307,14 @@ PrefabInstance:
     - target: {fileID: 8453208536577119164, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: EN
+      value: cough
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981973243602772160, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
+      propertyPath: GR
+      value: "\u03B2\u03AE\u03C7\u03B1"
       objectReference: {fileID: 0}
     - target: {fileID: 9039569963954199719, guid: 3549cde602fbe3d45a52711c7e950c83, type: 3}
       propertyPath: Image
