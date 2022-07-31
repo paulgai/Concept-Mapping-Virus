@@ -1604,7 +1604,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: EN
-      value: Coronavirus
+      value: Coronavirus has
       objectReference: {fileID: 0}
     - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: GR
@@ -1612,7 +1612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556464, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_Name
-      value: Coronavirus
+      value: Coronavirus has
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556466, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_text
@@ -3094,7 +3094,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: EN
-      value: as
+      value: such as
       objectReference: {fileID: 0}
     - target: {fileID: 1345840557960725533, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: GR
@@ -3102,7 +3102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556464, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_Name
-      value: as
+      value: such as
       objectReference: {fileID: 0}
     - target: {fileID: 8077113286041556466, guid: ac1ec74f24867cc4d89a58492ffe5ea3, type: 3}
       propertyPath: m_text

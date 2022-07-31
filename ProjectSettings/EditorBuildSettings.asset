@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Virus.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Symptoms.unity
     guid: e55ffd28462e92a4eabbffe1c883dfa2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Transmission.unity
     guid: 66ffe069a2b77f041a5c77d4b4b5829d
   m_configObjects: {}
